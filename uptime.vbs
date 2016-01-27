@@ -1,3 +1,4 @@
+' Source: http://www.experts-exchange.com/questions/28208955/Display-system-uptime-with-batch-script.html
 Set objWMIService = GetObject("winmgmts:\\.\root\cimv2")
 Set colOS = objWMIService.ExecQuery ("Select * From Win32_PerfFormattedData_PerfOS_System")
  
